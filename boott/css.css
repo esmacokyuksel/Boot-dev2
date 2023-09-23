@@ -1,0 +1,32 @@
+
+
+.fantasy {
+    font-family: fantasy;
+  }
+
+  
+  .center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .svg-container {
+    display: flex;
+    justify-content: space-between; /* SVG elemanlarını eşit aralıklı olarak yerleştirir */
+    gap: 1cm; /* 1 cm aralık ekler */
+  }
+
+  .round-border {
+    border-radius: 50%; /* Yuvarlak köşeler ekler */
+    border: 2px solid #000; /* Border rengi ve kalınlığı ayarlayabilirsiniz */
+    padding: 2px; /* İsteğe bağlı: Border ile resim arasındaki boşluğu ayarlar */ 
+    border-color: rgb(243, 7, 192);
+  }
+  .center-image {
+    display: contents;
+    justify-content: center;
+    align-items: center;
+  }
+  
